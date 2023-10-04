@@ -12,8 +12,6 @@ int main(int argc, char *argv[]){
 
     int vetor[tam], i, menor=0, maior=0;
 
-    printf("Entre com o valor de %d elementos\n", tam);
-
     for(i = 0;i < tam; i++){
         printf("Vetor[%d]: ", i);
         scanf("%d", &vetor[i]);
