@@ -8,8 +8,8 @@ Este programa em Ansi C consiste em uma série de funções para manipulação d
 2. **Contar Vogais:** Uma função que conta o número de vogais em uma string.
 
 3. **Remover Espaços:** Uma função que remove os espaços em branco de uma string.
-
 4. **Substituir Caractere:** Uma função que substitui todas as ocorrências de um caractere por outro em uma string.
+
 
 O programa realiza testes dessas funções em duas strings diferentes, exibindo os resultados na saída padrão. Certifique-se de implementar cada função corretamente para garantir o funcionamento adequado do programa.
 
@@ -63,7 +63,6 @@ void removerEspacos(char *str) {
     char temp[strlen(str)+1];
     int i = 0;
     int j = 0;
-
     for(i=0; i< strlen(str); i++){
         if(str[i] != ' '){
             temp[j] = str[i];
