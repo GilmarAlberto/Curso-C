@@ -1,10 +1,7 @@
 /*
-Multiplicação por Escalar:
-
-Crie um vetor de inteiros.
-Preencha o vetor com valores informados pelo usuário.
-Peça ao usuário para inserir um número escalar.
-Multiplique cada elemento do vetor pelo número escalar e imprima o vetor resultante.
+Crie um vetor de inteiros.					
+Preencha o vetor com valores informados pelo usuário.					
+Conte e imprima a quantidade de elementos pares no vetor.					
 
 */
 #include <stdio.h>
