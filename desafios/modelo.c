@@ -2,10 +2,10 @@
 
 */
 #include <stdio.h>
-#include <locale.h>
+#include <stdlib.h>
 
 int main(){
-    setlocale(LC_ALL,"Portuguese_Brasil");
+    system("config.bat");
 
     return 0;
 }
