@@ -26,7 +26,7 @@ int main(){
 
     srand(time(NULL));
 
-    num1 = 5; //rand() % 11; // Gera um número entre 0 e 10
+    num1 = rand() % 11; // Gera um número entre 0 e 10
 
     printf("O fatorial de %d é %d.", num1, fatorial(num1));
 
