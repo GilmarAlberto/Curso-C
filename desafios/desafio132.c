@@ -1,4 +1,5 @@
 /*
+**** COM PONTEIRO ****
 Faca um programa que leia 2 valores inteiros e chame uma funcao que receba estas 2 variaveis e troque o seu conteúdo, ou seja, esta função e chamada passando duas variaveis A e B por exemplo e, apos a execucao da funcao, A tera o valor de B e B tera o valor de A.
 */
 #include <stdio.h>
