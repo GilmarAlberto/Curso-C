@@ -18,7 +18,7 @@ int main(){
 
     for(int i = 0; i < 5; i++){
         *(ptr + i) = rand() % 101;
-        printf("%3d", *(ptr + i));
+        printf("%4d", *(ptr + i));
     }
 
     printf("\n");
@@ -26,9 +26,6 @@ int main(){
     for(int i = 0; i < 5; i++){
         printf("%4d", *(ptr + i) * 2);
     }
-
-
-    
 
     return 0;
 }
