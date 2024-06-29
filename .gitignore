@@ -1,0 +1,43 @@
+# Ignore arquivos de compilação
+*.o
+*.obj
+*.exe
+*.out
+
+# Ignore diretórios de compilação (se aplicável)
+/bin/
+/obj/
+/build/
+
+# Ignore arquivos temporários de editores e IDEs
+*~
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore arquivos de configuração específicos de IDEs
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Code::Blocks
+*.layout
+*.depend
+*.layout
+*.cbp
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Ignore arquivos de configuração de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de log do sistema
+*.log
